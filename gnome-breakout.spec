@@ -1,13 +1,13 @@
 Summary:	A cool game for GNOME
 Name: 		gnome-breakout
-Version:        0.5.2
+Version:        0.5.3
 Epoch:	        1
-Release:	%mkrel 2
+Release:	%mkrel 1
 License:	GPL
 Group:		Games/Arcade
 Source:		http://www.users.on.net/mipearson/%name-%version.tar.bz2
-Patch: gnome-breakout_0.5.2-5.diff.bz2
-Patch1: gnome-breakout-0.5.2-xdg.patch.bz2
+Patch: gnome-breakout-0.5.2-5.patch
+Patch1: gnome-breakout-0.5.2-xdg.patch
 URL:		http://www.users.on.net/mipearson/
 Buildroot:	%_tmppath/%name-%version-%release-root
 BuildRequires:  gnome-libs-devel
