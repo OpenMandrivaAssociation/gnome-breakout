@@ -9,7 +9,6 @@ Source:		http://www.users.on.net/mipearson/%name-%version.tar.bz2
 Patch: gnome-breakout-0.5.2-5.patch
 Patch1: gnome-breakout-0.5.2-xdg.patch
 URL:		http://www.users.on.net/mipearson/
-Buildroot:	%_tmppath/%name-%version-%release-root
 BuildRequires:  gnome-libs-devel
 BuildRequires:  ImageMagick
 
