@@ -34,16 +34,6 @@ rm -fr %buildroot
 %makeinstall_std GETTEXT_PACKAGE=%name
 mv %buildroot%_datadir/gnome/apps/Games/ %buildroot%_datadir/applications
 
-install -d -m 0755 %buildroot/%_menudir
-cat > %buildroot/%_menudir/%name <<EOF
-?package(%{name}): \
-command="gnome-breakout" \
-title="Gnome-Breakout" \
-longtitle="Gnome breakout" \
-icon="%name.png" \
-needs="x11" \
-section="More Applications/Games/Arcade" xdg="true"
-EOF
 
 #icons
 mkdir -p %buildroot{%_liconsdir,%_iconsdir,%_miconsdir}
@@ -69,7 +59,6 @@ rm -fr %buildroot
 %_datadir/pixmaps/*
 %_datadir/applications
 %_datadir/%name/
-%_menudir/*
 %_liconsdir/%name.png
 %_iconsdir/%name.png
 %_miconsdir/%name.png
