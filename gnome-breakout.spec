@@ -3,7 +3,7 @@ Name: 		gnome-breakout
 Version:        0.5.3
 Epoch:	        1
 Release:	%mkrel 1
-License:	GPL
+License:	GPLv2+
 Group:		Games/Arcade
 Source:		http://www.users.on.net/mipearson/%name-%version.tar.bz2
 Patch1: 01_makefile_fixes.dpatch
