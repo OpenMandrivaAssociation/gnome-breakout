@@ -68,4 +68,4 @@ rm -fr %buildroot
 %_liconsdir/%name.png
 %_iconsdir/%name.png
 %_miconsdir/%name.png
-%attr(664, games, games) %{_localstatedir}/games/*
+%attr(664, games, games) %{_localstatedir}/lib/games/*
