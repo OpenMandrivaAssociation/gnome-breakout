@@ -49,11 +49,15 @@ convert -scale 16x16 %name.png %buildroot%_miconsdir/%name.png
 
 %find_lang %name
 
+%if %mdkversion < 200900
 %post
 %update_menus
+%endif
 
+%if %mdkversion < 200900
 %postun
 %clean_menus
+%endif
 
 %clean
 rm -fr %buildroot
