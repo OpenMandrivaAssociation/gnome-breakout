@@ -2,7 +2,7 @@ Summary:	A cool game for GNOME
 Name: 		gnome-breakout
 Version:        0.5.3
 Epoch:	        1
-Release:	%mkrel 1
+Release:	%mkrel 3
 License:	GPLv2+
 Group:		Games/Arcade
 Source:		http://www.users.on.net/mipearson/%name-%version.tar.bz2
