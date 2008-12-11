@@ -13,7 +13,7 @@ Patch5: gnome-breakout-0.5.3-fix-desktop.patch
 URL:		http://www.users.on.net/mipearson/
 Buildroot:	%_tmppath/%name-%version-%release-root
 BuildRequires:  gnomeui2-devel
-BuildRequires:  ImageMagick desktop-file-utils
+BuildRequires:  imagemagick desktop-file-utils
 
 
 %description
