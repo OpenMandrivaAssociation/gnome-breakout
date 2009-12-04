@@ -10,6 +10,8 @@ Patch1: 01_makefile_fixes.dpatch
 Patch3: 03_configure_fixes.dpatch
 Patch4: 04_po_config.dpatch
 Patch5: gnome-breakout-0.5.3-fix-desktop.patch
+Patch6: gnome-breakout-0.5.3-mdv-fix-str-fmt.patch
+Patch7: gnome-breakout-0.5.3-mdv-fix-pixmaps-install.patch
 URL:		http://www.users.on.net/mipearson/
 Buildroot:	%_tmppath/%name-%version-%release-root
 BuildRequires:  gnomeui2-devel
@@ -27,10 +29,12 @@ and customizable levels.
 %patch3 -p1
 %patch4 -p1
 %patch5 -p0
+%patch6 -p1 -b .strfmt
+%patch7 -p1 -b .pixinst
 
 %build
 autoreconf -f -i
-%configure2_5x
+%configure2_5x --localstatedir=%{_localstatedir}/lib
 %make
 
 %install
