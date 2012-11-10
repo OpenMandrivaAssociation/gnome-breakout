@@ -1,0 +1,14 @@
+--- gnome-breakout.desktop~	2003-06-23 12:15:30.000000000 +0200
++++ gnome-breakout.desktop	2008-02-09 11:51:09.000000000 +0100
+@@ -3,9 +3,7 @@
+ Name[tr]=Gnome Breakout
+ Name[de]=GNOME Breakout
+ Comment=The classic arcade game Breakout for GNOME
+-Comment[tr]=Breakout klasiðinin Gnome teþkili
+-Comment[de]=Das klassische Arcade Spiel Breakout für GNOME
+ Exec=gnome-breakout
+-Icon=gnome-breakout.png
++Icon=gnome-breakout
+ Terminal=0
+-Type=Game
++Type=Application

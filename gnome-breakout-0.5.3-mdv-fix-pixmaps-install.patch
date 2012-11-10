@@ -1,0 +1,24 @@
+diff -p -up gnome-breakout-0.5.3/pixmaps/Makefile.am.pixinst gnome-breakout-0.5.3/pixmaps/Makefile.am
+--- gnome-breakout-0.5.3/pixmaps/Makefile.am.pixinst	2003-06-23 12:15:30.000000000 +0200
++++ gnome-breakout-0.5.3/pixmaps/Makefile.am	2009-12-04 21:07:07.000000000 +0100
+@@ -48,11 +48,9 @@ pixmap_DATA = ball.default.0.png bat.def
+ 	block.strong.1.die.3.png block.strong.1.die.4.png \
+ 	block.strong.1.die.5.png block.strong.1.die.6.png \
+ 	block.strong.3.die.0.png block.strong.2.die.0.png \
+-	block.strong.2.die.0.png \
+ 	block.strong.2.die.1.png block.strong.2.die.2.png \
+ 	block.strong.2.die.3.png block.strong.2.die.4.png \
+ 	block.strong.2.die.5.png block.strong.2.die.6.png \
+-	block.strong.3.die.0.png \
+ 	block.strong.3.die.1.png block.strong.3.die.2.png \
+ 	block.strong.3.die.3.png block.strong.3.die.4.png \
+ 	block.strong.3.die.5.png block.strong.3.die.6.png \
+@@ -62,8 +60,6 @@ pixmap_DATA = ball.default.0.png bat.def
+ 	block.explode.die.5.png block.explode.die.6.png \
+ 	block.explode.die.7.png \
+ 	bat.laser.0.png laser.0.png powerup.laser.0.png \
+-	bat.laser.0.png laser.0.png powerup.laser.0.png \
+-	bat.laser.0.png laser.0.png powerup.laser.0.png \
+ 	powerup.newlife.0.png powerup.newball.0.png \
+ 	powerup.nextlevel.0.png powerup.slow.0.png \
+ 	powerup.widebat.0.png bat.wide.0.png

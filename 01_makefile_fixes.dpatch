@@ -1,0 +1,16 @@
+--- gnome-breakout-0.5.3~/src/Makefile.am	2004-05-16 17:54:35.000000000 -0400
++++ gnome-breakout-0.5.3/src/Makefile.am	2007-10-17 22:50:06.000000000 -0400
+@@ -3,12 +3,7 @@
+ 	 -DGNOMELOCALEDIR=\""$(datadir)/locale"\" \
+ 	 -DG_LOG_DOMAIN=\"gnome-breakout\" \
+ 	 -DPIXMAPDIR=\"$(datadir)/gnome-breakout/pixmaps\" \
+-	 -DLEVELDIR=\"$(datadir)/gnome-breakout/levels\" \
+-	 -DGNOME_DISABLE_DEPRECATED \
+-	 -DGTK_DISABLE_DEPRECATED \
+-	 -DGDK_PIXBUF_DISABLE_DEPRECATED \
+-	 -DG_DISABLE_DEPRECATED \
+-         -Werror
++	 -DLEVELDIR=\"$(datadir)/gnome-breakout/levels\"
+ 
+ bin_PROGRAMS = gnome-breakout
+
