@@ -12,7 +12,7 @@ Patch4: 04_po_config.dpatch
 Patch5: gnome-breakout-0.5.3-fix-desktop.patch
 Patch6: gnome-breakout-0.5.3-mdv-fix-str-fmt.patch
 Patch7: gnome-breakout-0.5.3-mdv-fix-pixmaps-install.patch
-URL:		http://www.users.on.net/mipearson/
+URL:		https://www.users.on.net/mipearson/
 Buildroot:	%_tmppath/%name-%version-%release-root
 BuildRequires:  gnomeui2-devel
 BuildRequires:  imagemagick desktop-file-utils
